@@ -21,7 +21,7 @@ Script for comparing the contents of two different manabox collections (a giver 
 	consider trading: 6: Azog, Moria's Ruin (rare)
 	consider trading: 7: Passenger Ferry (common)
 	```
-    The leading number is how many copies the giver has of the card, then the name ofthe card, then in parentheses the rarity of the card.
+    The leading number is how many copies the giver has of the card, then the name of the card, then in parentheses the rarity of the card.
 4. You can also change the giver and recipient threshold for how many copies of the card they each have.  The default is if the giver has more than 4 copies of the card and the recipient has 0 copies of the card.
     1. Example:
         `./tradeBulk.py --giver scotts.csv --receiver troy.csv --giver_threshold 5 --receiver_threshold 1`
@@ -45,7 +45,7 @@ Script for comparing the contents of two different manabox collections (a giver 
 	consider trading: 10: Stone by Sunlight (uncommon)
 	```
     3. Which means that the giver has 10 copies of `Stone by Sunlight` and the recipient has only 1 copy of that card.
-5. But what if I want to see what Try has that Scott does not?
+5. But what if I want to see what Troy has that Scott does not?
     1. Switch the arguments `./tradeBulk.py --giver troy.csv --receiver scotts.csv`
     2. Which gives output like this
 	```
